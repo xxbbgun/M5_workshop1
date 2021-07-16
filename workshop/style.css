@@ -1,0 +1,62 @@
+.container {
+  font-family: Helvetica,Arial,sans-serif;
+  margin: 0px 500px 0px 500px;
+}
+
+h2 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  margin: 50px 700px;
+  color: #aa2477;
+}
+
+label, input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+input {
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+input[type=text] {
+  border: 2px solid white;
+  font-size: 15px;
+  padding: 7px;
+}
+
+input[type=password] {
+  border: 2px solid #ccc0ff;
+  font-size: 15px;
+  padding: 7px;
+}
+
+input[type=email] {
+  border: 2px solid #ccc0ff;
+  font-size: 15px;
+  padding: 7px;
+}
+
+button {
+  font: 1.3em sans-serif;
+  color: white;
+  border-radius: 10px;
+  width: 120px;
+  background-color: #ac7f9b;
+  margin-left: 200px;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(252, 108, 120, 0.9)), to(rgba(108, 247, 252, 0.9)));
+  background: linear-gradient(to right, rgba(252, 108, 120, 0.9), rgba(108, 247, 252, 0.9));
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" /> 
+</head>
+
+<body>
+    <form id="contact" name="contact" onsubmit="return formValid(this)" action="" method="post">
+        <h2>REGISTER</h2>
+
+        <div class="container" id="main-error">
+
+            
+            <div class="fname" id="fname">
+                <label>First name</label>
+                <input placeholder="First Name" type="text" name="firstname" id="firstname" tabindex="1" autofocus />
+                <div id="firstname-error"></div>
+                
+            </div>
+            <div class="lname" id="lname">
+                <label>Last name</label>
+                <input placeholder="Last name" type="text" name="lastname" id="lastname" tabindex="1" autofocus />
+                <div id="lastname-error"></div>
+            </div>
+
+            <div class="uid" id="uid">
+                <label>Username</label>
+                <input placeholder="Username" type="text" name="username" id="username" tabindex="1" autofocus />
+                <div id="username-error"></div>
+            </div>
+
+            <div class="pass" id="pass">
+                <label>Password</label>
+                <input placeholder="Password" type="password" name="password" id="password" tabindex="1" autofocus />
+                <div id="password-error"></div>
+            </div>
+            <div class="email-check" id="email-check">
+                <label>Email</label>
+                <input placeholder="Email" type="email" name="email" id="email" tabindex="3" autofocus />
+                <div id="email-error"></div>
+            </div> 
+            <div class="btnsubmit" id="btnsubmit">
+                <button type="submit" name="submit" id="submit" tabindex="5">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </form> 
+    <script src="script.js"></script>
+</body>
+
+</html>
